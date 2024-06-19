@@ -1,0 +1,22 @@
+#  数据库地址
+mysql:
+  username: root
+  password: huzhihao
+  host: 127.0.0.1
+  port: 3306
+  database: db1
+
+#  本地IPv4的地址以及运行端口
+server:
+  ip: 10.16.132.18
+  port: 8080
+
+#  redis地址
+redis:
+  ip: 127.0.0.1
+  port: 6379
+  password:
+  database: 0
+
+ffmpeg:
+  path: utils/ffmpeg.exe
